@@ -3,7 +3,7 @@ class AllSetting {
     constructor(data) {
         this.webListen = "";
         this.webDomain = "";
-        this.webPort = 443;
+        this.webPort = 9999;
         this.webCertFile = "";
         this.webKeyFile = "";
         this.webBasePath = "/";
@@ -35,7 +35,7 @@ class AllSetting {
         this.subEnableRouting = true;
         this.subRoutingRules = "";
         this.subListen = "";
-        this.subPort = 2096;
+        this.subPort = 8888;
         this.subPath = "/sub/";
         this.subJsonPath = "/json/";
         this.subClashEnable = true;
